@@ -9,4 +9,7 @@ module.exports = {
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"],
+  globals: {
+    designSystem: require("@esign-system/esign-system"),
+  },
 };
